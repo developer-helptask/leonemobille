@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+*{
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 13px;
+}
+a, a:hover{ text-decoration: none; }
+form{
+	width: 50%;
+}
+input[type=text],
+input[type=file]{
+	width: 96%;
+	padding: 2%;
+	margin: 1% 0;
+}
+select{
+	width: 98%;
+	padding: 2%;
+	margin: 1% 0;
+}
+
+input[type=submit]{
+	width: 25%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border:none;
+	background: #224074;
+	margin: 20px 0;
+	border:none;
+	cursor: pointer;
+	color: #fff;
+}
+
+.p_item{
+	height: 30px;
+	line-height: 30px;
+}
+.btn-add{
+	width: 25%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border:none;
+	background: #224074;
+	margin: 20px 0;
+}
+.btn-add a{
+	color: #fff;
+	    padding: 5% 16%;
+}
+.btn-add a i{
+	color: #fff;
+
+}
+
+.tb > thead{
+background-color: #ddd;
+}
+.tb > tbody > tr.odd{
+	background-color: #eee;
+}
+table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td{
+	border-top:none !important;
+}
+.left-menu{
+	width: 200px;
+	background: #1f232a;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+ 
+.company_name{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+    line-height: 20px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #232830;
+}
+.container{
+	margin-left: 200px;
+	width: calc(100% - 200px)
+}
+
+.top{
+	height: 50px;
+	background: #232830;
+	color: #fff;
+	font-size: 15px;
+}
+
+.top_right{
+	float: right;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.top_right a{
+	color: #fff;
+}
+.menuarea{
+}
+.menuarea ul{
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menuarea li{
+	padding: 20px 5px;
+    border-bottom: 1px solid #232830;
+    display: flex;
+    justify-content:flex-start;
+}
+.menuarea li a{
+	color: #fff;
+}
+.menuarea li:hover{
+	background: #232830;
+}
+
+.area{
+	padding: 5%;
+}
+
+.cadnew{
+width: 100%;
+display: flex;
+flex-direction: column;
+margin: 2% 0;
+}
+.btn-new{
+width: 200px;
+height: 40px;
+display: flex;
+justify-content: center;;
+align-items: center;
+color: #fff;
+background: #33CCFF;
+font-weight: bolder;
+cursor: pointer;
+font-size: 1.5rem;
+}
+.form-new{
+width: 50%;
+padding: 1% 0;
+display: none;
+}
+
+.imagesTable{
+	width: 100px;
+}
